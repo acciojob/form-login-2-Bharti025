@@ -11,10 +11,10 @@ function text(){
 	let second=last.value;
 	let third=parseInt(phone.value);
 	let fourth=email.value;
-	alert(`First Name:${first} Last Name:${second} 
-	Phone Number:${third} 
-	Email:${fourth}`);
+	 alert(`First Name: ${first} 
+Last Name: ${second} 
+Phone Number: ${third} 
+Email: ${fourth}`);
 }
-
 button.addEventListener("click",text);
 
