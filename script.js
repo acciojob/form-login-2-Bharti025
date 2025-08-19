@@ -7,14 +7,12 @@ let email=document.getElementById("email");
 let button=document.getElementById("submit");
 
 function text(){
-	let first=name.value;
-	let second=last.value;
-	let third=parseInt(phone.value);
-	let fourth=email.value;
-	 alert(`First Name: ${first} 
-Last Name: ${second} 
-Phone Number: ${third} 
-Email: ${fourth}`);
+	 let first = name.value.trim();
+  let second = last.value.trim();
+  let third = phone.value.trim();
+  let fourth = email.value.trim();
+
+  alert(`First Name: ${first} Last Name: ${second} Phone Number: ${third} Email ID: ${fourth}`);
 }
 button.addEventListener("click",text);
 
