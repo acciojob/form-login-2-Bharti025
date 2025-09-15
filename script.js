@@ -12,7 +12,7 @@ function text(){
   let third = phone.value.trim();
   let fourth = email.value.trim();
 
-  alert(`First Name: ${first} Last Name: ${second} Phone Number: ${third} Email ID: ${fourth}`);
+   alert(`First Name: ${first}\nLast Name: ${second}\nPhone Number: ${third}\nEmail ID: ${fourth}`);
 }
 button.addEventListener("click",text);
 
