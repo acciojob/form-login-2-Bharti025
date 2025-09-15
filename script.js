@@ -4,7 +4,7 @@ let name=document.getElementById("name");
 let last=document.getElementById("last");
 let phone=document.getElementById("phone");
 let email=document.getElementById("email");
-let button=document.getElementById("submit");
+
 
 function text(){
 	 let first = name.value.trim();
@@ -14,5 +14,4 @@ function text(){
 
    alert(`First Name: ${first} Last Name: ${second} Phone Number: ${third} Email ID: ${fourth}`);
 }
-button.addEventListener("click",text);
 
